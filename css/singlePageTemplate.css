@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /*Custom*/
+.hider{
+	display: none;
+}
+
 @media screen and (max-width: 550px){
 .theTable{
 	display: none;
@@ -10,16 +14,17 @@
 	display: block;
 }
 	
-.collapsed{
+.hider{
 	display: block;
 	text-align: center;
 	margin: 0 auto;
 	
 	}
 }
-.collapsed{
-	display: none;
+.biggerText{
+	font-size: 30px;
 }
+
 .column{
     float: left;
     width: 20%;
@@ -132,6 +137,23 @@
 	position: relative;
 	line-height: 110px;
 
+}
+
+@media screen and (max-width: 767px){
+	.address, .phone, .schedule{
+		display: none;
+	}
+	.social{
+		text-align: center;
+		margin: 0 auto;
+		align-content: center;
+		display: inline-block
+	}
+	.footer{
+		margin: 0 auto;
+		align-content: center;
+		text-align: center;
+	}
 }
 
 /* Body */

@@ -23,17 +23,18 @@
 </head>
 <body>
 <!-- Main Container -->
-<div class="container"> 
+<div class="containers"> 
   <!-- Navigation -->
   <header> <a href="">
-    <img src="../Totally Dental Website/TotallyDentalLogo_Color.png" max-width="216" max-height="46" alt="Totally Dental" class= "logo"/>
+    <img src="images/TotallyDentalLogo_Color.png" max-width="216" max-height="46" alt="Totally Dental" class= "logo"/>
     </a>
     <nav>
-      <ul>
+      <ul style="margin-top: 12px; ">
         <li style="color: black"><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li> <a href="#contact">Procedures</a></li>
-		<li> <a href="#contact">Schedule Appointment</a></li>
+        <li><a href="about.html">About</a></li>
+        <li> <a href="procedures.html">Procedures</a></li>
+		<li> <a href="schedule.html">Schedule Appointment</a></li>
+		  <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -46,39 +47,103 @@
   <!-- About Section -->
   <section class="about" id="">
   <h1 class="hidden">Totally Dental</h1>
-<div class="accordion" id="accordion2">
-<div class="accordion-group">
-<div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-Collapsible Group Item #1
-</a>
+<div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree"> Cleanings & Preventions
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <div class="panel-group" id="accordion2">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeOne">Cleanings
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThreeOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">Professional dental cleanings (dental prophylaxis) are usually performed by Registered Dental Hygienists.  Your cleaning appointment will include a dental exam and the following:
+
+Removal of calculus (tartar): Calculus is hardened plaque that has been left on the tooth for some time and is now firmly attached to the tooth surface.  Calculus forms above and below the gum line and can only be removed with special dental instruments.
+Removal of plaque: Plaque is a sticky, almost invisible film that forms on the teeth.  It is a growing colony of living bacteria, food debris, and saliva.  The bacteria produce toxins (poisons) that inflame the gums.  This inflammation is the start of periodontal disease!
+Teeth polishing: Remove stain and plaque that is not otherwise removed during tooth brushing and scaling.
 </div>
-<div id="collapseOne" class="accordion-body collapse in">
-<div class="accordion-inner">
-Anim pariatur cliche...
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeTwo">Collapsible Group Item #3.2
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThreeTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">Panel 3.2</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+	<div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseClean"> Cosmetic Dentistry
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseClean" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <div class="panel-group" id="accordion3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#collapseCleanings">Cleanings
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseCleanings" class="panel-collapse collapse in">
+                                    <div class="panel-body">Professional dental cleanings (dental prophylaxis) are usually performed by Registered Dental Hygienists.  Your cleaning appointment will include a dental exam and the following:
+
+Removal of calculus (tartar): Calculus is hardened plaque that has been left on the tooth for some time and is now firmly attached to the tooth surface.  Calculus forms above and below the gum line and can only be removed with special dental instruments.
+Removal of plaque: Plaque is a sticky, almost invisible film that forms on the teeth.  It is a growing colony of living bacteria, food debris, and saliva.  The bacteria produce toxins (poisons) that inflame the gums.  This inflammation is the start of periodontal disease!
+Teeth polishing: Remove stain and plaque that is not otherwise removed during tooth brushing and scaling.
 </div>
-</div>
-</div>
-<div class="accordion-group">
-<div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-Collapsible Group Item #2
-</a>
-</div>
-<div id="collapseTwo" class="accordion-body collapse">
-<div class="accordion-inner">
-Anim pariatur cliche...
-</div>
-</div>
-</div>
-</div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#collapseC2">Collapsible Group Item #3.2
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseC2" class="panel-collapse collapse">
+                                    <div class="panel-body">Panel 3.2</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 	</section>
     
   <!-- Footer Section -->
 <section>
 <div class="footer">
 <div class="address">
-	32223 Duke St Suit G <br>
+	32223 Duke St Suite G <br>
 Alexandria, Virginia 22314
 </div>	
 <div class="phone">
