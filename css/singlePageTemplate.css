@@ -1,6 +1,25 @@
 @charset "UTF-8";
 
 /*Custom*/
+@media screen and (max-width: 550px){
+.theTable{
+	display: none;
+}
+	
+.tableFixed{
+	display: block;
+}
+	
+.collapsed{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	
+	}
+}
+.collapsed{
+	display: none;
+}
 .column{
     float: left;
     width: 20%;
@@ -279,12 +298,11 @@ ul li:hover a {
 }
 
 .about {
-	padding-left: 25px;
-	padding-right: 25px;
 	padding-top: 35px;
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
+	width: 100%;
 }
 /* Stats Gallery */
 .stats {
