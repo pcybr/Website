@@ -192,7 +192,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1300px;
+	min-height: 1300px;
 	background-color: #FFFFFF;
 	border-top: 5px solid #fdc546
 }
@@ -220,7 +220,8 @@ body {
 /* Navigation */
 header {
 	width: 100%;
-	min-height: 5%;
+	min-height: 50px;
+	max-height: 5%;
 	background-color: white;
 }
 .logo {

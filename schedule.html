@@ -25,7 +25,7 @@
     <img src="images/TotallyDentalLogo_Color.png" max-width="216" max-height="46" alt="Totally Dental" class= "logo"/>
     <nav>
       <ul>
-        <li style="color: black"><a href="#hero">Home</a></li>
+        <li style="color: black"><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li> <a href="procedures.html">Procedures</a></li>
 		<li> <a href="schedule.html">Schedule Appointment</a></li>
@@ -48,24 +48,51 @@
 	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.0351642866694!2d-77.08889188480697!3d38.80874755977012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b19dec9d5fb3%3A0x20acd0c176e76fb3!2sTotally+Dental!5e0!3m2!1sen!2sus!4v1513452025372" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
 	  </div>
 	  <h3 style="text-align: center" class="abtext">Request an appointment using this form or by emailing drkeat@totallydental.com. If you need to cancel your appointment please call or email!</h3>
-	  <div style="text-align: center">
+	  <div style="text-align: left; width: 70%; margin: 0 auto;align-content: center;">
 	  <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+	  <label for="usr">Name:</label><br>
+	  <input type="text" class="form-control" placeholder="Enter name">
+		  </div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">Email address:</label><br>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  <div class="form-group" style="margin-bottom: 20px;">
+    <label for="exampleInputPassword1">Phone</label><br>
+<input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd">
   </div>
-  <div class="form-check">
+  <div class="form-check" style="margin-bottom: 20px;">
     <label class="form-check-label">
+	Have you been a patient here before? <br>
+
       <input type="checkbox" class="form-check-input">
-      Check me out
     </label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+	<div class="checkbox">
+	<label>What day of the week works best for you?</label> <br>
+  <label><input type="checkbox" value="">Monday-Friday</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">Monday</label>
+</div>
+<div class="checkbox disabled">
+  <label><input type="checkbox" value="">Tuesday</label>
+</div>
+ <div class="checkbox">
+  <label><input type="checkbox" value="">Wednesday</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">Thursday</label>
+</div>
+<div class="checkbox disabled">
+  <label><input type="checkbox" value="">Friday</label>
+</div>
+		  
+<div class= "form-group" style="margin-bottom: 20px;">
+<label for="exampleFormControlTextarea1">Please describe the nature of your appointment (e.g., consultation, check-up, etc.):</label><br>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style = "width: 100%"></textarea>
+		  </div>
 </form>
 		  </div>
 	  
@@ -73,19 +100,24 @@
   <!-- Footer Section -->
 <section>
 <div class="footer">
-<div class="address">
+<div class="address"><a href="https://www.google.com/maps/place/Totally+Dental/@38.8087434,-77.0867032,15z/data=!4m5!3m4!1s0x0:0x20acd0c176e76fb3!8m2!3d38.8087434!4d-77.0867032" style="color: white;">
 	32223 Duke St Suite G <br>
 Alexandria, Virginia 22314
+	</a>
 </div>	
 <div class="phone">
 	(703) 212-7070
 </div>
-<div class="schedule">
-Schedule an Appoinmtnet
+<div class="schedule"><a href = "schedule.html" style="color: white;">
+Schedule an Appointment
+	</a>
 </div>
 <div class="social">
-<img src="images/facebook-3-24.png" alt="Facebook" style="margin-right: 5px"/>
+<a href="https://www.facebook.com/TotallyDentalVA/">
+<img src="images/facebook-3-24.png" alt="Facebook" style="margin-right: 5px"/></a>
+<a href="https://www.yelp.com/biz/totally-dental-alexandria">
 <img src="images/yelp-2-24.png" alt = "Yelp"/>
+</a>
 
 </div>
 </div>	
